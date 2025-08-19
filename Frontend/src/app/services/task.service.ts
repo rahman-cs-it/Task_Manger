@@ -13,7 +13,7 @@ export interface Task {
   providedIn: 'root'
 })
 export class TaskService {
-  private apiUrl = 'http://localhost:3000/tasks'; // ✅ your NestJS backend
+  private apiUrl = 'https://task-manger-2b2m.onrender.com/tasks'; // ✅ your NestJS backend
 
   constructor(private http: HttpClient) { }
 
